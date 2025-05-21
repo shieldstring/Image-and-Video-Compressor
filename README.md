@@ -6,27 +6,27 @@ Usage:
 
     Install Dependencies:
 
-    ```pip install Flask Pillow cloudinary```
+    pip install Flask Pillow cloudinary
 
-    ```Install ffmpeg (for video compression):
+    Install ffmpeg (for video compression):
         Linux: sudo apt update && sudo apt install ffmpeg
         macOS: brew install ffmpeg (if you have Homebrew)
-        Windows: Download from the official ffmpeg website and add it to your system's PATH.```
+        Windows: Download from the official ffmpeg website and add it to your system's PATH.
 
-    ```
+    
     Cloudinary Credentials:
         Sign up for a Cloudinary account if you don't have one.
         Go to your Cloudinary Dashboard to find your CLOUD_NAME, API_KEY, and API_SECRET.
         Replace the placeholder values for CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY, and CLOUDINARY_API_SECRET in the Python code with your actual credentials. For production, it's highly recommended to use environment variables (e.g., os.environ.get('CLOUDINARY_CLOUD_NAME')).
-    ```
+    
 
 How to Run:
 
-   ```
+   
     Open your terminal or command prompt.
     Navigate to the directory where you saved the file.
     Run the application: python app.py
-    The API will be running on http://127.0.0.1:5000.```
+    The API will be running on http://127.0.0.1:5000.
 
 How to Test (Example using curl):
 
